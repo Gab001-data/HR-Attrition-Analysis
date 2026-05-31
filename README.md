@@ -14,3 +14,18 @@ Genomy, a software company, has recorded increased employee attrition over the p
 ## 2. Dataset Description
 The dataset for this analysis includes the following fact and dimension tables.
 #### 📁 Fact table
+##### FactPerformance
+- PerformanceID
+- EmployeeID
+- ReviewDate
+- EnvironmentSatisfaction
+- JobSatisfaction
+- RelationshipSatisfaction
+- WorkLifeBalance
+- SelfRating
+- ManagerRating
+- TrainingOpportunitiesWithinYear
+- TrainingOpportunitiesTaken
+
+### 📁 Dimension Tables
+##### DimEmployee
