@@ -29,3 +29,45 @@ The dataset for this analysis includes the following fact and dimension tables.
 
 ### 📁 Dimension Tables
 ##### DimEmployee
+- EmployeeID
+- FirstName
+- LastName
+- Gender
+- Age
+- BusinessTravel
+- Department
+- DistanceFromHome
+- State
+- Ethnicity
+- Education
+- JobRole
+- Salary
+- StockOptionLevel
+- OverTime
+- HireDate
+- Attrition
+- YearsAtCompany
+- YearsInMostRecentRole
+- YearsSinceLastPromotion
+- YearsWithCurrentManager
+
+##### DimSatisfiedLevel
+- SatisfactionID
+- SatisfactionLevel
+
+##### DimRatingLevel
+- RatingID
+- RatingLevel
+- 
+##### DimEducationLevel
+- EducationLevelID
+- EducationLevel
+
+## 3. Data Model Diagram
+DimEducationLevel    DimDate
+       |               |
+       |               |
+DimEmployee — FactPeformance — DimSatisfiedLevel
+                  |
+                  |
+              DimRatingLevel
