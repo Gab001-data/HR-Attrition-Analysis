@@ -64,10 +64,4 @@ The dataset for this analysis includes the following fact and dimension tables.
 - EducationLevel
 
 ## 3. Data Model Diagram
-DimEducationLevel    DimDate
-       |               |
-       |               |
-DimEmployee — FactPeformance — DimSatisfiedLevel
-                  |
-                  |
-              DimRatingLevel
+![data model](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/data_model.png)
