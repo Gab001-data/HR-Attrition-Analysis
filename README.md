@@ -122,12 +122,25 @@ CALCULATE (
 
 ![overview dashboard](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Overview.png)
 
+##### 📌Employee Demography
+- KPI Cards: Youngest, Oldest Employee
+- Proportion of Employees by Marital Status
+- Column Chart: Distribution of Employees by Age and Gender, Count of Employees, and Average Salary by Ethnicity
+
+![demograph](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Demography.png)
+
 ##### 📌 Employee Performance Tracker
 - Cards: Start Date, Last Review Date, Next Review Date
 - TrendLine: Job Satisfaction, Relationship Satisfaction, Environment Satisfaction, Manager Rating, Self Rating, Work Life Balance
 
 ![performance tracker](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Performance_Tracker.png)
 
-##### 📌Employee Demograph
+##### 📌Attrition
+- KPI Card: % Attrition Rate
+- TrendLine: % Attrition Rate by Hire Date
+- Column Charts: Attrition Rate by Department & JobRole, Attrition by Travel Frequency, Overtime, and Tenure
+
+![Attrition](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Attrition.png)
+
 
 
