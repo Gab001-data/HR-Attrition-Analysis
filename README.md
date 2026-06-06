@@ -1,7 +1,7 @@
 # Employee Attrition Analysis
 
 ## 1. Problem Statement
-Genomy, a software company, has recorded increased employee attrition over the past 24 months. Management is concerned about talent loss and wants insight into the factors driving employee exits.
+Atlas Lab, a software company, has recorded increased employee attrition over the past 24 months. Management is concerned about talent loss and wants insight into the factors driving employee exits.
 
 ### Key Business Questions
 - What is the average remuneration of exited employees compared to the industry average?.
@@ -120,4 +120,14 @@ CALCULATE (
 - Bar Chart: Count of Active employees by Dept
 - Active employees by Department and Job Role hierarchy map.
 
-![overview dashboard]()
+![overview dashboard](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Overview.png)
+
+##### 📌 Employee Performance Tracker
+- Cards: Start Date, Last Review Date, Next Review Date
+- TrendLine: Job Satisfaction, Relationship Satisfaction, Environment Satisfaction, Manager Rating, Self Rating, Work Life Balance
+
+![performance tracker](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Performance_Tracker.png)
+
+##### 📌Employee Demograph
+
+
