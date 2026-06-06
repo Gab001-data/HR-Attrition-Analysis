@@ -142,5 +142,7 @@ CALCULATE (
 
 ![Attrition](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/Attrition.png)
 
+## 6. Insight & Recommendation
+##### 🔍 Key Insights
 
 
