@@ -65,3 +65,51 @@ The dataset for this analysis includes the following fact and dimension tables.
 
 ## 3. Data Model Diagram
 ![data model](https://github.com/Gab001-data/HR-Attrition-Analysis/blob/main/img/data_model.png)
+
+## 4. Key DAX Measures
+##### 🚶 % Attrition Rate
+```
+<\>DAX
+% Attrition Rate = DIVIDE([InactiveEmployees], [TotalEmployees])
+
+```
+##### 🧑 InactiveEmployees
+```
+<\>DAX
+ActiveEmployees = CALCULATE([TotalEmployees], FILTER(DimEmployee, DimEmployee[Attrition] = "Yes"))
+
+```
+##### 👥 TotalEmployees
+```
+<\>DAX
+TotalEmployees = DISTINCTCOUNT(DimEmployee[EmployeeID])
+
+```
+##### 💰 AverageSalary
+```
+<\>DAX
+AverageSalary = AVERAGE(DimEmployee[Salary])
+
+```
+
+##### ✅ ManagerRating
+```
+<\>DAX
+ManagerRating = 
+CALCULATE (
+    MAX ( FactPerformanceRating[ManagerRating] ),
+    USERELATIONSHIP ( FactPerformanceRating[ManagerRating], DimRatingLevel[RatingID] )
+)
+
+```
+
+##### ⚖️ WorkLifeBalance
+```
+<\>DAX
+WorkLifeBalance = 
+CALCULATE (
+    MAX ( FactPerformanceRating[WorkLifeBalance] ),
+    USERELATIONSHIP ( FactPerformanceRating[WorkLifeBalance], DimSatisfiedLevel[SatisfactionID] )
+)
+
+```
