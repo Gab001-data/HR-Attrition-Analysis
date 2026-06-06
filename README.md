@@ -113,3 +113,11 @@ CALCULATE (
 )
 
 ```
+## 5. Dashboard Screenshots
+##### 📌 Executive Overview Dashboard
+- KPI Cards: Total Employees, Active Employees, Inactive Employees, % Attrition Rate
+- Trend: Yearly Employee Hiring trend
+- Bar Chart: Count of Active employees by Dept
+- Active employees by Department and Job Role hierarchy map.
+
+![overview dashboard]()
