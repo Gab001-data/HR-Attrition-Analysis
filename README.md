@@ -156,5 +156,11 @@ CALCULATE (
 - Overtime work has a tremendous impact on attrition. only 10.4% of Employees with no overtime work requirement exited.
 
 ##### 4. Historically, attrition rate has been fairly constant
-- 
+- Attrition by hire data has changed from 15% in 2012 to 16.1% in 2022
+
+#### 💡Recommendations
+##### 1. Employee Onboarding and Training
+- Ensure proper onboarding for new employees
+- Implement comprehensive training & welfare programs for employees to ensure job and environment satisfaction, and work-life balance.
+- frequent review of training to ensure contents are upto date and relevant employee's job role
 
